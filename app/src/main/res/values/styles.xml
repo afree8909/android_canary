@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/indigo_600</item>
+        <item name="colorPrimaryDark">@color/indigo_500</item>
+        <item name="colorAccent">@color/green_200</item>
+    </style>
+
+
+    <style name="tab_design_animator">
+        <item name="android:background">@color/white</item>
+        <item name="pDividerColor">@color/transparent</item>
+        <item name="pDividerPadding">0dp</item>
+        <item name="pTabPaddingLeftRight">0dp</item>
+        <item name="pShouldExpand">true</item>
+        <item name="pIndicatorColor">@color/indigo_500</item>
+        <item name="pIndicatorHeight">1dp</item>
+    </style>
+
+
+    <declare-styleable name="IndexScroller">
+        <!--
+             Reference to an array resource that will populate the Spinner.  For static content,
+             this is simpler than populating the Spinner programmatically.
+        -->
+        <attr name="entries" />
+        <!-- Text color. -->
+        <attr name="barTextColor" format="color|reference" />
+        <!-- Color of the hover text. -->
+        <attr name="barTextColorHover" format="color|reference" />
+        <!-- Size of the text. Recommended dimension type for text is "sp" for scaled-pixels (example: 15sp). -->
+        <attr name="barTextSize" format="dimension" />
+        <!-- The background color for the IndexScroller. -->
+        <attr name="barBackgroundColor" format="color|reference" />
+    </declare-styleable>
+
+</resources>
